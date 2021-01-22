@@ -1,0 +1,13 @@
+# Default ignored files
+.idea
+/shelf/
+/workspace.xml
+/misc.xml
+/modules.xml
+/vcs.xml
+/Vue-first.iml
+# Datasource local storage ignored files
+/../../../../../:\Idea\Vue\Vue-first\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

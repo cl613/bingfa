@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+<!--    <h3>{{msg}}</h3>-->
+<!--    <span v-bind:title="msg">鼠标悬停几秒种查看提示信息</span>-->
+
+    <h1 v-if="ok">Yes</h1>
+    <h1 v-else>no</h1>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data:{
+            // msg : "hello,vue!"
+            ok: true
+        }
+    });
+</script>
+
+</body>
+</html>

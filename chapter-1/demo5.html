@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+
+<!--    输入的文本：<textarea name="" id="" cols="30" rows="10" v-model="message"></textarea>{{message}}-->
+下拉框
+    <select v-model="select">
+        <option disabled value="">请选择</option>
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+    </select>
+    {{select}}
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data:{
+            // message: "均衡学java"
+            select: ""
+        }
+
+    });
+</script>
+
+</body>
+</html>
